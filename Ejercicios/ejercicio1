@@ -1,0 +1,26 @@
+GitHub Fundamentals (Fundamentos de GitHub)
+GitHub es principalmente una herramienta de control de versiones colaborativa construida sobre Git, un sistema de control de versiones distribuido gratuito y de código abierto (Licencia Pública General de GNU versión 2).
+
+Funcionalidad Central de GitHub:
+Gestión de cambios durante el desarrollo de software.
+Control de acceso por usuario o equipo para cada proyecto.
+Capacidades de colaboración.
+Herramientas de gestión de tareas.
+Seguimiento de problemas, no solo errores, sino también ideas, comentarios o tareas.
+Publicación fácil (semi) automática y segura de páginas web y wikis.
+Red social, herramientas de comunicación y difusión incorporadas.
+Integración sencilla en el flujo de trabajo a través de interfaces gráficas de usuario (GUI).
+En el contexto de la infraestructura de OpenAIRE (específicamente relacionada con los repositorios de Zenodo), GitHub está integrado de manera transparente y es la solución predeterminada para muchos usuarios de la infraestructura.
+
+Git (Git)
+Git es un sistema de control de revisiones distribuido rápido y escalable con un conjunto de comandos inusualmente rico que proporciona operaciones de alto nivel y acceso completo a las partes internas. Puede operar desde la línea de comandos, ejecutarse localmente en cualquier computadora o en otros entornos, como Internet o cualquier red, y se puede instalar en los principales sistemas operativos visitando la página de descargas de Git. Además, Git está disponible de forma gratuita en Internet y se encuentra bajo la licencia de código abierto GPL, lo que significa que puedes obtener su código fuente y modificarlo según tus necesidades.
+
+Básicamente, Git supervisa una carpeta de proyecto local, registra todos los cambios y, finalmente, los exporta a un repositorio remoto (Push). Otros desarrolladores pueden colaborar en el proyecto importándolo (Fork o Clone), trabajando en alguna área y proponiendo incluir esos cambios mediante una solicitud de extracción (Pull request). Además, diferentes versiones del software o prototipos pueden colocarse en diferentes ramas (Branches).
+
+Interfaces Gráficas de Usuario (GUI) para Git
+Git en sí mismo viene con un par de herramientas GUI para realizar confirmaciones (git-gui) y navegar por repositorios (gitk). Dado que Git se distribuye bajo una licencia de código abierto (GNU GPLv2), muchas empresas, tanto de código abierto como privadas, han diseñado y mantienen interfaces gráficas que ofrecen a los usuarios una forma más visual e intuitiva de usar Git. Algunas soluciones propietarias populares son GitKraken, Sublime Merge, Sourcetree, etc. En el ámbito de código abierto, la solución más popular es GitHub Desktop.
+
+GitHub y GitLab
+GitHub y GitLab son hoy en día los principales proveedores de repositorios de alojamiento nativo en la nube con control de versiones incorporado a través de Git. Ambos son muy similares en sus funcionalidades, esquemas de precios y licencias, y ambos servicios superan (al menos parcialmente) las limitaciones de Git. Además, ambas plataformas agregan otras características clave para los desarrolladores modernos (CI/CD, DevOps, seguimiento de errores, etc.) y otras herramientas multidisciplinarias (gestión de proyectos, edición de wikis, desarrollo web y alojamiento seguro, redes sociales, etc.) adecuadas para otros roles como gerentes, científicos de datos, desarrolladores web, comunicación corporativa, edición de libros, almacenamiento de recursos, redes profesionales, etc.
+
+La elección entre una u otra debe hacerse caso por caso; sin embargo, en el escenario de la interacción con OpenAIRE / Zenodo, GitHub surge como una elección natural debido a que ya está integrado en Zenodo.
